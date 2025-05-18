@@ -1,0 +1,77 @@
+
+export const emotions: Emotion[] = [
+  {
+    emoji: "😢",
+    label: "Mélancolie",
+    description: "Un au revoir empreint de nostalgie et de souvenirs précieux",
+    color: "hover:bg-blue-500/10 focus:bg-blue-500/10",
+    value: -2, // Légèrement négatif, mais naturel dans le processus
+  },
+  {
+    emoji: "😕",
+    label: "Regret",
+    description:
+      "Les mots non-dits et les choses qu'on aurait voulu faire différemment",
+    color: "hover:bg-purple-500/10 focus:bg-purple-500/10",
+    value: -3, // Négatif car implique du remords
+  },
+  {
+    emoji: "😊",
+    label: "Gratitude",
+    description: "Un merci sincère pour tout ce qui a été partagé",
+    color: "hover:bg-yellow-500/10 focus:bg-yellow-500/10",
+    value: 4, // Très positif, montre de la reconnaissance
+  },
+  {
+    emoji: "🤍",
+    label: "Amour",
+    description: "Même si les chemins se séparent, l'affection reste",
+    color: "hover:bg-red-500/10 focus:bg-red-500/10",
+    value: 5, // Le plus positif
+  },
+  {
+    emoji: "🙏",
+    label: "Pardon",
+    description: "Pour faire la paix et permettre à chacun d'avancer",
+    color: "hover:bg-green-500/10 focus:bg-green-500/10",
+    value: 3, // Positif car cherche la réconciliation
+  },
+  {
+    emoji: "🙅",
+    label: "Acceptation",
+    description:
+      "La reconnaissance que c'est le bon moment pour tourner la page",
+    color: "hover:bg-orange-500/10 focus:bg-orange-500/10",
+    value: 1, // Légèrement positif, marque la maturité
+  },
+  {
+    emoji: "😔",
+    label: "Déception",
+    description: "Quand les choses n'ont pas été comme on l'espérait",
+    color: "hover:bg-slate-500/10 focus:bg-slate-500/10",
+    value: -4, // Très négatif
+  },
+  {
+    emoji: "😡",
+    label: "Colère",
+    description: "L'expression d'une frustration ou d'une injustice ressentie",
+    color: "hover:bg-rose-500/10 focus:bg-rose-500/10",
+    value: -5, // Le plus négatif
+  },
+  {
+    emoji: "🤔",
+    label: "Incompréhension",
+    description:
+      "Quand les raisons restent floues et les questions sans réponses",
+    color: "hover:bg-cyan-500/10 focus:bg-cyan-500/10",
+    value: -1, // Légèrement négatif
+  },
+  {
+    emoji: "🌱",
+    label: "Espoir",
+    description:
+      "La conviction qu'un nouveau départ apportera de belles choses",
+    color: "hover:bg-emerald-500/10 focus:bg-emerald-500/10",
+    value: 2, // Modérément positif
+  },
+];

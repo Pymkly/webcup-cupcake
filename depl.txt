@@ -1,0 +1,8 @@
+ssh -i .ssh\cupcake cupcake@102.18.113.78 -p 22974
+scp -P 22974 -i C:\Users\hrivonandrasana\.ssh\cupcake .\main.py cupcake@102.18.113.78:~/cupcake-back
+scp -P 22974 -i C:\Users\hrivonandrasana\.ssh\cupcake .\wsgi.py cupcake@102.18.113.78:~/cupcake-back
+scp -P 22974 -i C:\Users\hrivonandrasana\.ssh\cupcake .\init.py cupcake@102.18.113.78:~/cupcake-back
+scp -P 22974 -i C:\Users\hrivonandrasana\.ssh\cupcake .\requirements.txt cupcake@102.18.113.78:~/cupcake-back
+scp -P 22974 -i C:\Users\hrivonandrasana\.ssh\cupcake -r .\api cupcake@102.18.113.78:~/cupcake-back
+scp -P 22974 -i C:\Users\hrivonandrasana\.ssh\cupcake -r .\prompt cupcake@102.18.113.78:~/cupcake-back
+passADMIN321?
