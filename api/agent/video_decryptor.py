@@ -26,6 +26,14 @@ class VideoDecryptor:
         emotion = self.emotion_agent.answer(_text)
         return emotion
 
+    def to_wav(self, url):
+        path = f".{url}"
+        video = mp.VideoFileClip(path)
+        audio_file = video.audio
+        audio_path = f"{path}.wav"
+        if not os.path.exists(audio_path):
+            audio_file.write_audiofile(audio_path)
+
     def extract_text(self, url):
         path = f".{url}"
         video = mp.VideoFileClip(path)

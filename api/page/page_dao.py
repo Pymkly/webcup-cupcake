@@ -59,7 +59,8 @@ class PageDAO:
         JOIN
             utilisateur u ON p.id_user = u.id
         LEFT JOIN
-                    page_reaction_counts prc ON p.id = prc.id_page;
+                    page_reaction_counts prc ON p.id = prc.id_page
+        order by COALESCE(prc.reaction_count, 0) desc, p.id asc ;
         """
         cursor.execute(query)
         pages_with_user = cursor.fetchall()

@@ -2,4 +2,4 @@ from api.agent.video_decryptor import VideoDecryptor
 
 video_decryptor = VideoDecryptor()
 
-video_decryptor.detect("/static/1.mp4")
+video_decryptor.to_wav("/static/4.mp4")
